@@ -1,5 +1,11 @@
 class Dog
-def name=(dog_name)
-  @name = dog_name
-end
+#writes the dogs name
+  def name=(dog_name)
+    @name = dog_name
+  end
+#reads the dog name
+  def name
+    @name
+  end
+  
 end
